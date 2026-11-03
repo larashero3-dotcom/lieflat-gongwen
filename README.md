@@ -2,9 +2,7 @@
 
 ![公文写作 skill：通过 102 万字语料提炼，把公文写作风格变成可测量、可验收的量化数据](assets/gongwen-dna-hero-zh.jpg)
 
-通过102万字语料提炼的公文写作 skill，可供 Codex、ClaudeCode、Moxt等兼容 agents.md 的 Agent 使用。这个 skill 把公文写作风格变成可测量、可验收的量化数据，让 Agent 能更好复现7种典型的公文风格，包括调研报告、领导讲话、工作意见、经验材料、工作方案、经验总结和党建材料。
-
-<br />
+通过102万字语料提炼的公文写作 skill，可供 Codex、ClaudeCode 等兼容 agents.md 的 Agent 使用。这个 skill 把公文写作风格变成可测量、可验收的量化数据，让 Agent 能更好复现7种典型的公文风格，包括调研报告、领导讲话、工作意见、经验材料、工作方案、经验总结和党建材料。
 
 ---
 

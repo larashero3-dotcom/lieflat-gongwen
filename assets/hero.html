@@ -40,7 +40,7 @@ body{display:grid;justify-content:center;align-content:center;padding:40px;
 .corner.br{bottom:26px;right:26px;border-left:0;border-top:0}
 
 .left{position:relative;z-index:3;display:flex;flex-direction:column;
-  justify-content:center}
+  justify-content:center;align-items:center;text-align:center}
 .meta{position:absolute;top:50px;left:64px;right:150px;
   display:flex;justify-content:space-between;gap:18px;
   padding-bottom:12px;border-bottom:2px solid var(--red);
@@ -48,34 +48,27 @@ body{display:grid;justify-content:center;align-content:center;padding:40px;
   letter-spacing:.22em}
 .kicker{margin-bottom:16px;color:var(--red);font-size:12px;
   font-weight:300;letter-spacing:.30em}
-h1{max-width:760px}
+h1{max-width:1040px}
 h1 .ctx{display:block;white-space:nowrap;font-size:30px;line-height:1.35;
   font-weight:300;letter-spacing:.04em;color:var(--ink-soft)}
 h1 .product{display:block;white-space:nowrap;margin-top:14px;
-  font-family:var(--serif);font-size:72px;line-height:1.1;font-weight:500;
+  font-family:var(--serif);font-size:80px;line-height:1.1;font-weight:500;
   letter-spacing:.025em;color:var(--red-deep)}
 .rule{width:54px;height:1px;margin:22px 0 0;background:var(--ink-soft);opacity:.42}
-.lead{max-width:660px;margin-top:26px;color:var(--ink-soft);
+.lead{max-width:1000px;margin-top:26px;color:var(--ink-soft);
   font-family:var(--serif);font-size:22px;line-height:1.72;font-weight:300}
 
-.foot{display:flex;align-items:flex-start;gap:56px;margin-top:52px}
-.stats{display:grid;grid-template-columns:repeat(3,minmax(0,140px));gap:22px}
+.foot{display:flex;justify-content:center;width:100%;margin-top:36px}
+.stats{display:grid;width:900px;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
 .stat{border-top:1px solid var(--rule);padding-top:14px}
 .stat b{display:block;font-family:var(--serif);font-size:34px;
   font-weight:300;color:var(--red)}
 .stat span{display:block;margin-top:5px;font-size:14px;color:var(--ink-soft)}
 
-.made{border-top:1px solid var(--rule);padding-top:14px;padding-left:56px;
-  border-left:1px solid var(--rule);margin-left:4px}
 .stamp{position:absolute;top:44px;right:64px;z-index:3;
   display:flex;width:56px;height:56px;align-items:center;
   justify-content:center;border:1px solid var(--red);color:var(--red);
   font-family:var(--serif);font-size:14px;line-height:1.25;letter-spacing:.14em}
-.made .label{color:var(--ink-faint);font-family:var(--mono);font-size:10px;
-  letter-spacing:.26em}
-.made .row{display:flex;align-items:center;gap:14px;margin-top:9px}
-.made img{display:block;height:26px;width:auto}
-.made .url{color:var(--ink-soft);font-size:13px;letter-spacing:.04em}
 </style></head><body>
 <main class="scene"><canvas class="rain" aria-hidden="true"></canvas><div class="mist"></div>
 <article class="article">
@@ -94,10 +87,6 @@ h1 .product{display:block;white-space:nowrap;margin-top:14px;
       <div class="stat"><b>306</b><span>篇全量统计</span></div>
       <div class="stat"><b>7</b><span>类文体参数</span></div>
       <div class="stat"><b>12</b><span>项可验收指标</span></div>
-    </div>
-    <div class="made">
-      <div class="label">MADE ON</div>
-      <div class="row"><img src=".moxt-logo.png" alt="Moxt"><span class="url">moxt.ai</span></div>
     </div>
   </div>
 </div>
